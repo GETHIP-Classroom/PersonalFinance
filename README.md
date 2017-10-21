@@ -1,7 +1,7 @@
 # PersonalFinance
 ### Budgeting Application, Knowledge Base (budgets, credit, banking)
 
-## Team People:
+## Team Members:
 #### Trae Brown
 #### Ben Gao
 #### Nick Rutledge
