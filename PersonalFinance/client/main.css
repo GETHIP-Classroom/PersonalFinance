@@ -1,1 +1,54 @@
 /* CSS declarations go here */
+
+body {
+    background-color: rgb(38,38,38);
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+    height: 45px;
+    width: 45px;
+}
+
+.center-cols > .col {
+    float:none; /* disable the float */
+    display: inline-block; /* make blocks inline-block */
+    text-align: initial; /* restore text-align to default */
+  }
+
+  .homepageCards.col.m3 {
+    padding-right:2em;
+  }
+
+/* header h1 {
+    color: rgb(13, 79, 192);
+    background-color: black;
+}
+
+.nav-wrapper {
+    background-color: rgb(13, 79, 192);
+}
+
+.homePanels {
+    text-align: center;
+    padding: 2em;
+}
+
+.homeStyles {
+    text-align: center;
+    color: white;
+}
+
+.homeButton {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 2em;
+    border-color: black;
+    background-color: rgb(13, 79, 192);
+}
+
+.homeButton:hover {
+    box-shadow: 10px 10px 10px 10px black;
+} */
