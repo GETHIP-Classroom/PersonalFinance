@@ -21,6 +21,16 @@ img {
     padding-right:2em;
   }
 
+  #noAccount {
+      text-decoration: underline;
+      text-align: center;
+      color:  rgb(13, 79, 192);
+  }
+
+  #noAccount:hover {
+      color: white;
+  }
+
 /* header h1 {
     color: rgb(13, 79, 192);
     background-color: black;

@@ -1,0 +1,98 @@
+<template name = "main">
+    <head>
+      <title>Personal Finance</title>
+    </head>
+
+    <body>
+      {{> nav}}
+
+
+      <div class="section no-pad-bot" id="index-banner">
+            <div class="container">
+              <br><br>
+              <h1 class="header center blue-text text-darken-4">Personal Finance</h1>
+              <div class="row center">
+                <h5 class="header col s12 light">"Financial Literacy Simplified"</h5>
+              </div>
+              <div class="row center">
+                <a href="#" id="download-button" class="btn-large waves-effect blue darken-4" onclick="FlowRouter.go('/login');">Sign Up</a>
+              </div>
+              <br><br>
+        
+            </div>
+          </div>
+        
+        
+          
+            <div class="section">
+        
+              <!--   Icon Section   -->
+              <div class="row">
+                      <div class="col m3 homepageCards">
+                        <div class="card blue darken-4">
+                          <div class="card-content white-text">
+                            <span class="card-title">Budgeting Tool</span>
+                            <p>Use our 'top of the line' budgeting tool to get a better handle on your finances!</p>
+                          </div>
+                          <div class="card-action">
+                              <button class="btn waves-effect grey darken-3" type="submit" name="action">Try it Out!
+                                  <i class="material-icons right">send</i>
+                                </button>
+                          </div>
+                        </div>
+                      </div>
+              
+
+                    
+                      <div class="col m3 homepageCards">
+                          <div class="card blue darken-4">
+                            <div class="card-content white-text">
+                              <span class="card-title">Informational Forums</span>
+                              <p>Check out our forums to get help from hundreds of financial experts!</p>
+                            </div>
+                            <div class="card-action">
+                                <button class="btn waves-effect grey darken-3" type="submit" name="action">Try it Out!
+                                    <i class="material-icons right">send</i>
+                                  </button>
+                            </div>
+                          </div>
+                        </div>
+                  
+
+                        <div class="col m3 homepageCards">
+                            <div class="card blue darken-4">
+                              <div class="card-content white-text">
+                                <span class="card-title">Knowledge Base</span>
+                                <p>Spend some time in our extensive Knowledge Base for easy to understand articles!</p>
+                              </div>
+                              <div class="card-action">
+                                  <button class="btn waves-effect grey darken-3" type="submit" name="action">Try it Out!
+                                      <i class="material-icons right">send</i>
+                                    </button>
+                              </div>
+                            </div>
+                          </div>
+                      
+
+                        
+                          <div class="col m3 homepageCards">
+                              <div class="card blue darken-4">
+                                <div class="card-content white-text">
+                                  <span class="card-title">Banking Information</span>
+                                  <p>Looking to learn more about Local Banks? Browse our listings of Banks near you!</p>
+                                </div>
+                                <div class="card-action">
+                                    <button class="btn waves-effect grey darken-3" type="submit" name="action" onclick="Flowrouter.go('/login');">Try it Out!
+                                        <i class="material-icons right">send</i>
+                                      </button>
+                                </div>
+                              </div>
+                            </div>
+                          
+
+              </div>
+        
+            </div>
+            <br><br>
+    </body>
+  </template>

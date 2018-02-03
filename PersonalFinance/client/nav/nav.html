@@ -1,0 +1,45 @@
+<!-- NAV TEMPLATE -->
+
+<template name = "nav">
+
+<head>   
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+    <body>
+        <nav class="blue darken-4" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="bankLogo.png" onclick="FlowRouter.go('/');"></a>
+            <ul class="right hide-on-med-and-down">
+                <li onclick="FlowRouter.go('/');"><a href="#">Home</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Tips<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Budgeting<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Blog<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+    
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">Share Ideas</a></li>
+                </ul>
+    
+            <ul id="dropdown2" class="dropdown-content">
+                <li><a href="#!">Budget Template</a></li>
+                <li><a href="#!">Check Writing</a></li>
+                <li><a href="#!">Credit</a></li>
+                </ul>
+        
+            <ul id="dropdown3" class="dropdown-content">
+                <li><a href="#!">Savings Advice</a></li>
+                <li><a href="#!">Savings Calculator</a></li>
+                <li><a href="#!">Education Requirements</a></li>
+                <li><a href="#!">Salary</a></li>
+                </ul>
+    
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </body>
+  </template>

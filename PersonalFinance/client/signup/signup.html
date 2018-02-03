@@ -1,0 +1,28 @@
+<template name = "signUp">
+    {{ > nav}}
+
+    <form id="signUp-form">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>Sign Up</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" name="fullname" class="form-control" id="name" placeholder="Full Name">
+                    </div>
+                    <div class="form-group">
+                        <label>E-Mail</label>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="E-Mail">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <button type="submit" class="btn btn-danger btn-lg blue darken-4">Sign Up</button>
+                </div>
+            </div>
+        </form>
+</template>
