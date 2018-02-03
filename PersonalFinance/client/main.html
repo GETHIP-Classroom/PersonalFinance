@@ -19,40 +19,41 @@
 
 <!-- NAV TEMPLATE -->
 <template name = "nav">
-    <nav class="blue darken-4" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="bankLogo.png"></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#">Home</a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Tips<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Budgeting<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Blog<i class="material-icons right">arrow_drop_down</i></a></li>
+  <nav class="blue darken-4" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="bankLogo.png"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Tips<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Budgeting<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Blog<i class="material-icons right">arrow_drop_down</i></a></li>
+        </ul>
+
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Share Ideas</a></li>
           </ul>
 
-          <ul id="dropdown1" class="dropdown-content">
-              <li><a href="#!">Share Ideas</a></li>
-            </ul>
-
-          <ul id="dropdown2" class="dropdown-content">
-              <li><a href="#!">Budget Template</a></li>
-              <li><a href="#!">Check Writing</a></li>
-              <li><a href="#!">Credit</a></li>
-            </ul>
-    
-          <ul id="dropdown3" class="dropdown-content">
-              <li><a href="#!">Savings Advice</a></li>
-              <li><a href="#!">Savings Calculator</a></li>
-              <li><a href="#!">Education Requirements</a></li>
-              <li><a href="#!">Salary</a></li>
-            </ul>
-
-          <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Navbar Link</a></li>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="#!">Budget Template</a></li>
+            <li><a href="#!">Check Writing</a></li>
+            <li><a href="#!">Credit</a></li>
           </ul>
-          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-      </nav>
-  </template>
+  
+        <ul id="dropdown3" class="dropdown-content">
+            <li><a href="#!">Savings Advice</a></li>
+            <li><a href="#!">Savings Calculator</a></li>
+            <li><a href="#!">Education Requirements</a></li>
+            <li><a href="#!">Salary</a></li>
+          </ul>
 
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+</template>
+
+<!-- Home Page Template -->
 <template name = "home">
       <div class="section no-pad-bot" id="index-banner">
         <div class="container">
@@ -129,7 +130,7 @@
                               <p>Looking to learn more about Local Banks? Browse our listings of Banks near you!</p>
                             </div>
                             <div class="card-action">
-                                <button class="btn waves-effect grey darken-3" type="submit" name="action">Try it Out!
+                                <button class="btn waves-effect grey darken-3" type="submit" name="action" onclick="Flowrouter.go('/login');">Try it Out!
                                     <i class="material-icons right">send</i>
                                   </button>
                             </div>
@@ -162,7 +163,7 @@
           </div>
   </template>
 
-<template name="nav">
+<!-- <template name="nav">
   <nav>
     <div class="nav-wrapper">
       <a href="#" class="brand-logo right"><img src = "../public/bankLogo.png" alt ="logo"></a>
@@ -174,4 +175,4 @@
       </ul>
     </div>
   </nav>
-</template>
+</template> -->
