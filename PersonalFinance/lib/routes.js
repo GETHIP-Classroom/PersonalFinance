@@ -24,3 +24,12 @@ FlowRouter.route( '/login', {
       console.log("testRoute")
     }
   });
+  
+  FlowRouter.route('/infoWF', {
+    name: 'infoWF',
+    action: function() {
+
+      BlazeLayout.render('infoWF');
+      console.log("testRoute")
+    }
+  });
