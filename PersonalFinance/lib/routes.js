@@ -34,6 +34,15 @@ FlowRouter.route( '/login', {
     }
   });
 
+  FlowRouter.route('/savingsAdvice', {
+    name: 'savingsAdvice',
+    action: function() {
+
+      BlazeLayout.render('savingsAdvice');
+      console.log("testRoute")
+    }
+  });
+
   FlowRouter.route('/savingsCalculator', {
     name: 'savingsCalc',
     action: function() {
