@@ -24,12 +24,30 @@ FlowRouter.route( '/login', {
       console.log("testRoute")
     }
   });
+
+  FlowRouter.route('/budgetTemplate', {
+    name: 'budgetTemplate',
+    action: function() {
+
+      BlazeLayout.render('budgetTemplate');
+      console.log("testRoute")
+    }
+  });
   
   FlowRouter.route('/infoWF', {
     name: 'infoWF',
     action: function() {
 
       BlazeLayout.render('infoWF');
+      console.log("testRoute")
+    }
+  });
+
+  FlowRouter.route('/checkWriting', {
+    name: 'checkWriting',
+    action: function() {
+
+      BlazeLayout.render('checkWriting');
       console.log("testRoute")
     }
   });
